@@ -1,3 +1,14 @@
+/* in a frequency counter pattern 
+step 1) Add edge cases
+step 2) Store counts in 2 objects
+step 3) Run a for loop through array items for both arrays, 
+step 4) check if these array items exist in object, if they don't, add 1 to the object key, if they
+dont, initialize and add 1 to the key. 
+obj1[key] = key value, key = key of object
+step 5) compare obj1 and obj2. add two comparison checkers, one to see if keys match and second to 
+see if key values match 
+*/
+
 function squaredChecker(arr1, arr2) {
     if (!arr1 || !arr2) {
         return false;
