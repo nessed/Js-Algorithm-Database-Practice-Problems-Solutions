@@ -1,39 +1,38 @@
 function squaredChecker(arr1, arr2) {
     if (!arr1 || !arr2) {
-      return false;
+        return false;
     }
     if (arr1.length != arr2.length) {
-      return false;
+        return false;
     }
     const obj1 = {};
     const obj2 = {};
     for (let key of arr1) {
-      if (obj1[key] == undefined) {
-        obj1[key] = 1;
-        //console.log(obj1);
-      } else {
-        obj1[key] = obj1[key] + 1;
-      }
+        if (obj1[key] == undefined) {
+            obj1[key] = 1;
+            //console.log(obj1);
+        } else {
+            obj1[key] = obj1[key] + 1;
+        }
     }
     for (let key of arr2) {
-      if (obj2[key] == undefined) {
-        obj2[key] = 1;
-        //console.log(obj2);
-      } else {
-        obj2[key] = obj2[key] + 1;
-      }
+        if (obj2[key] == undefined) {
+            obj2[key] = 1;
+            //console.log(obj2);
+        } else {
+            obj2[key] = obj2[key] + 1;
+        }
     }
     for (let key in obj1) {
-      if (!(key in obj2)) {
-        console.log("false",key,"does not exist in array 2")
-        return false;
-      }
-      if (obj2[key] !== obj1[key]) {
-        console.log("false, key values not same")
-        return false;
-      }
-    } console.log("true, all values and keys match") 
-      return true
-  }
-  squaredChecker([1, 2, 3, 4, 4], [1,4,6,8,8]);
-  
+        if (!(key in obj2)) {
+            console.log("false", key, "does not exist in array 2")
+            return false;
+        }
+        if (obj2[key] !== obj1[key]) {
+            console.log("false, key values not same")
+            return false;
+        }
+    } console.log("true, all values and keys match")
+    return true
+}
+squaredChecker([1, 2, 4, 4, 4], [1, 2, 4, 4, 4]);
