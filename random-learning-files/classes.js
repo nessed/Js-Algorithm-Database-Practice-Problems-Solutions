@@ -27,6 +27,9 @@ class Student {
     });
     return sum / this.scores.length;
   }
+  static enrollStudents(){
+    return "Enrolling Students"
+  }
 }
 
 let firstStudent = new Student("Colt", "Steele", 3);
