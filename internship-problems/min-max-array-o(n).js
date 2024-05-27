@@ -14,16 +14,3 @@ function arrayChecker(array) {
 
 arrayChecker([9, 5, 1, 2, 3, 4]);
 
-//REFACTORED SOLUTION WITH o(1) constant space
-
-function arrayChecker2(arr) {
-  let min = arr[0];
-  for (let i = 0; i < arr.length; i++) {
-    if (min > arr[i]) {
-      min = arr[i];
-      console.log(min);
-    }
-  }
-  console.log(min);
-}
-arrayChecker2([3, 4, 1, 2, 3, 7, 4, -1, 23, -6]);
