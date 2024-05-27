@@ -5,16 +5,23 @@ minimum element and the second will be a maximum of an array.
 O(n) space
 O(1) time
 */
-
-function arrayChecker2(arr) {
-    let min = arr[0];
-    for (let i = 0; i < arr.length; i++) {
-      if (min > arr[i]) {
-        min = arr[i];
-        console.log(min);
-      }
+function arrayChecker(arr) {
+  let min = arr[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (min > arr[i]) {
+      min = arr[i];
     }
-    console.log(min);
   }
-  arrayChecker2([3, 4, 1, 2, 3, 7, 4, -1, 23, -6]);
-  
+  let max = arr[0];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (max < arr[i]) {
+      max = arr[i];
+    }
+  }
+  console.log(min);
+  console.log(max);
+  return max, min;
+}
+
+arrayChecker([3, 50, 4, 1, 2, 3, 7, 4, -1, 23, -6]);

@@ -9,8 +9,8 @@ O(n) time
 function arrayChecker(array) {
   var min = Math.min(...array);
   var max = Math.max(...array);
+  console.log(max, min);
   return max, min;
 }
 
 arrayChecker([9, 5, 1, 2, 3, 4]);
-
