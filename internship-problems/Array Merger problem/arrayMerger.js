@@ -1,5 +1,5 @@
 //take any amount of arrays as input and merge them all into one array//take
-//hello
+//hello//
 function mergeArrays() {
   let text = "";
   const arrayOfArray = [];
