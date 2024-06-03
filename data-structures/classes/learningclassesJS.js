@@ -19,6 +19,7 @@ class Student {
   }
   addScore(score) {
     this.scores.push(score);
+    console.log(this.scores)
     return this.scores;
   }
   calculateAverage() {
