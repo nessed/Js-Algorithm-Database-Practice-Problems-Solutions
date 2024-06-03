@@ -16,4 +16,8 @@ here, steps are basically same as dumb solution except:
 4)we multiply total by prime number to make its value more random so there is less chance of collision or value landing on 
 same index then we modulate it by arrayLen again
 
+however: 
+what happens when string is bigger than 100 characters?
+some of its ending values after 100 get skipped over
+is that an issue?
 */
