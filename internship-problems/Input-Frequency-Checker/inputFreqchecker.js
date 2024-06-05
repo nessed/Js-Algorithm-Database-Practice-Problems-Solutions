@@ -1,3 +1,8 @@
+//Given a sorted array arr[] of size N and a number X, you need to find the number of occurrences of X in given array.
+
+//Note: Expected time complexity is O(log(n)) 
+
+
 function inputChecker(arr, input) {
   if (!arr) {
     return false;

@@ -1,3 +1,8 @@
+// You are given a string s. You need to reverse the string.
+// Expected Time Complexity: O(|S|).
+// Expected Auxiliary Space: O(1).
+
+
 function reverseString(str) {
   let array = str.split("");
   let reversed = [];
