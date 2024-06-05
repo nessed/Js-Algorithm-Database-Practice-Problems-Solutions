@@ -1,5 +1,5 @@
 // Given a random set of numbers, Print them in ascending sorted order.
-/* Space Complexity: O(1), Time Complexity: O(N)^2 */
+/* Space Complexity of my code: O(1), Time Complexity: O(N)^2 */
 function selectionSort(arr) {
   for (i = 0; i < arr.length; i++) {
     let lowest = i;
