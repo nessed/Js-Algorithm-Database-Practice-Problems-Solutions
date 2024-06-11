@@ -2,6 +2,8 @@
 
 ## Welcome to my repository! Here, I've compiled a series of exercises and solutions focusing on JavaScript and Computer Science fundamentals. This repository showcases my journey of learning and improving my skills over time. You'll find a range of topics covered, from data structures and algorithms to problem-solving patterns and more.
 
+### Feel free to clone this repository for easy access to structured notes and exercises covering basic Data Structures and Algorithms (DSA). I've organized everything in a way that's easy to navigate, making it convenient for both learning and revision purposes! Additionally, I plan to upload PDF-based learning notes for DSA as soon I find an easy way to push them onto GitHub from evernote.
+
 ### What You'll Find
 Let me walk you through the contents of this repository:
 
@@ -26,8 +28,6 @@ Explore implementations of various searching algorithms such as binary or linear
 
 #### 7. Sorting Algorithms
 Check out implementations of various sorting algorithms such as selection sort, insertion sort, bubble sort etc.
-
-### Feel free to clone this repository for easy access to structured notes and exercises covering basic Data Structures and Algorithms (DSA). I've organized everything in a way that's easy to navigate, making it convenient for both learning and revision purposes! Additionally, I plan to upload PDF-based learning notes for DSA as soon I find an easy way to push them onto GitHub from evernote.
 
 
 
