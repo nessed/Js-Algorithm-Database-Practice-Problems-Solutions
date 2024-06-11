@@ -10,12 +10,14 @@
 
 //O:N time, O(1) space
 function arrayCycle(arr) {
-    console.log(arr)
-    arr.unshift(arr[arr.length-1])
-    arr.pop()
-    console.log(arr)
-
-    
+  if (arr.length == 0) {
+    return false;
+  } else {
+    arr.unshift(arr[arr.length - 1]);
+    arr.pop();
+    console.log(arr);
+    return arr;
+  }
 }
 
-arrayCycle([1, 2, 3, 4, 5])
+arrayCycle([1, 2, 3, 4, 5]);
