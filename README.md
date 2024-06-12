@@ -12,7 +12,7 @@ Explore various JavaScript implementations of fundamental data structures such a
 
 #### 2. Internship Data Structure and Algorithms Problems
 This section houses a collection of problems i was assigned to perform in a learning internship that i started in May 2024. I was assigned problems related to array manipulation, algorithm usage, data structure usage (with run time and auxilary space constraints)
-The folder containts level 1 (easier) and level 2 (more difficult) problems with each sub problem saved in its own folder. Some problems have multiple solved solutions as some solutions were refactored for better readability or performance after writing the intiial solution (or the dumb/bad solution as they are referred to in this folder)
+The folder contains level 1 (easier) and level 2 (more difficult) problems with each sub problem saved in its own folder. Some problems have multiple solved solutions as some solutions were refactored for better readability or performance after writing the intiial solution (or the dumb/bad solution as they are referred to in this folder)
 
 #### 3. LeetCode Solutions
 Find solutions to problems that i solved sourced from LeetCode, neatly organized for easy reference.
