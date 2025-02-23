@@ -7,6 +7,7 @@ function inputChecker(arr, input) {
   if (!arr) {
     return false;
   }
+
   const obj1 = {};
   for (let key of arr) {
     if (obj1[key] == undefined) {
@@ -26,5 +27,5 @@ function inputChecker(arr, input) {
 }
 inputChecker(
   [1, 2, 2, 3, 2, 1, 1, 2, 2, 3, 3, 3, 3, 8, 1, 14, 16, 17, 4646, 64646, 4646],
-  198
+  2
 )
